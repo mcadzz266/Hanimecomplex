@@ -16,7 +16,7 @@ DB_NAME = os.environ.get("DB_NAME", "metadata")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001927823893"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002055283400 -1002116090334"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002116090334"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds

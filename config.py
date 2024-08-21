@@ -15,7 +15,7 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://hanimecomplex:hanimecomplex@han
 DB_NAME = os.environ.get("DB_NAME", "hanimecomplex")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001584064219"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001927823893"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001940056900"))
 
 
